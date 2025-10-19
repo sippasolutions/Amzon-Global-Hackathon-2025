@@ -1,0 +1,60 @@
+Business Source License 1.1
+
+Licensor: SIPPA Solutions, Inc.
+Licensed Work: SIPPA Health Platform
+The Licensed Work is (c) 2025 SIPPA Solutions, Inc.
+
+Effective Date: 2025-01-01
+Change Date: 2028-01-01
+Change License: Apache License, Version 2.0
+Contact: info@sippasolutions.com
+
+---------------------------------------------------------------------------
+ADDITIONAL USE GRANT
+---------------------------------------------------------------------------
+You may use, copy, and modify this Licensed Work for academic research,
+education, and non-commercial evaluation purposes. This includes collaboration
+with accredited academic, nonprofit, or public health institutions for
+research or clinical investigation studies (such as CUNY, NYC Health + Hospitals, 
+or similar entities), provided such collaborations are not conducted for profit or
+commercial advantage.
+
+Publications, analyses, and derivative works resulting from such collaborations
+must include attribution to “SIPPA Solutions, Inc.” and must reference this
+Business Source License.
+
+---------------------------------------------------------------------------
+USAGE LIMITATION
+---------------------------------------------------------------------------
+The Licensed Work and any derivative works may not be used, in whole or in part,
+for any Commercial Purpose.
+
+“Commercial Purpose” means:
+- offering the Licensed Work as part of a product or service for sale,
+- integrating the Licensed Work into a commercial SaaS, platform, or application,
+- or otherwise using the Licensed Work to generate revenue directly or indirectly.
+
+For clarity, using the Licensed Work in a research study funded by a grant
+or public research award does *not* constitute a Commercial Purpose.
+
+Commercial use requires a separate commercial license agreement with the Licensor.
+
+---------------------------------------------------------------------------
+DISTRIBUTION
+---------------------------------------------------------------------------
+You may redistribute the Licensed Work and modifications under this License,
+provided that:
+- this license text is included in all copies or substantial portions, and
+- attribution to “SIPPA Solutions, Inc.” is maintained.
+
+---------------------------------------------------------------------------
+CHANGE LICENSE
+---------------------------------------------------------------------------
+On or after the Change Date (2028-01-01), this Licensed Work will
+automatically convert to the Apache License, Version 2.0.
+
+---------------------------------------------------------------------------
+BASED ON TEMPLATE
+---------------------------------------------------------------------------
+This Business Source License (BSL 1.1) text is based on the template provided
+by MariaDB Corporation Ab (https://mariadb.com/bsl11/).
