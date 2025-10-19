@@ -7,5 +7,9 @@ This project is licensed under the **Business Source License 1.1 (BSL)**.
 - On **January 1, 2028**, this project will automatically convert to the
   **Apache License 2.0**.
 
+For the purposes of evaluation, judging, and promotion by the Amazon Global Hackathon 2025 organizers,
+SIPPA Solutions grants a royalty-free, non-exclusive, worldwide license to use, display, and reference
+this Submission. All other uses are governed by the Business Source License 1.1 (BSL 1.1).
+
 For partnership or licensing inquiries, contact:
 📧 [info@sippasolutions.com](mailto:info@sippasolutions.com)
