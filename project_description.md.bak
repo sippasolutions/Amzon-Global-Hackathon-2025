@@ -7,8 +7,8 @@
 - **Ms. Samiha Zaman** — Queens College, CUNY  
 
 ### Clinical Consultation
-- **Dr. Issac Sachmechi** - Queens Hospital/NYC Health and Hospitals
-- **Dr. Avraham Ben-Haim** - Queens Hospital/NYC Health and Hospitals
+*Dr. Issac Sachmechi - Queens Hospital/NYC Health and Hospitals*
+*Dr. Avraham Ben-Haim - Queens Hospital/NYC Health and Hospitals*
 
 ---
 
@@ -110,7 +110,7 @@ Each agent runs in an **isolated AgentCore runtime kernel** to perform two coord
   Unit testing of the Smart-Goal-Generator Agent and LLM-Evaluator Agent in SageMaker Jupyter Notebook.  
 - **Demo URL:**
 1. High level (3-min video): https://youtu.be/Wz7EpyvTvyE
-2. Step-by-step Juypter notebooks walk through of unit testing of Smart-Goal-Generator and LLM-Evaluator agents: 
+2. Step-by-step Juypter notebooks walk through: 
 
 ---
 
