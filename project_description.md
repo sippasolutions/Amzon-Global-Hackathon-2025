@@ -107,10 +107,9 @@ Each agent runs in an **isolated AgentCore runtime kernel** to perform two coord
 - **IAM Roles & Policies for Replication:** [https://tinyurl.com/2whmjuzf](https://tinyurl.com/2whmjuzf)  
   *(Note: Certain runtime and account-specific configurations may require adjustment.)*  
 - **Demo Showcase (Deployment Walkthrough):**  
-  Unit testing of the Smart-Goal-Generator Agent and LLM-Evaluator Agent in SageMaker Jupyter Notebook.  
-- **Demo URL:**
 1. High level (3-min video): https://youtu.be/Wz7EpyvTvyE
-2. Step-by-step Juypter notebooks walk through of unit testing of Smart-Goal-Generator and LLM-Evaluator agents: 
+2. Unit testing (step-by-step walkthrough) of Smart-Goal-Generator and LLM-Evaluator agents: https://tinyurl.com/t2uz7ptm (just open the Jupyter Notebook)
+
 
 ---
 
