@@ -1,0 +1,104 @@
+Final Cleanup Checklist:
+------------------------
+1. Cloudformation Stacks for Infrastructure and Cognito
+2. Cognito - User Pools
+3. Amazon Bedrock Agentcore:
+	- Agent Runttime
+	- Gateways (and target)
+	- Memory
+	- Observability
+4. S3 bucket for smartgoalgenerator
+5. System Managers: Parameter Store
+6. CloudWatch: Gen AI Obervability
+	- Agents: smart_goal_generator_agent
+******************************************************
+
+Inventory for Roles and Permission Policies
+-------------------------------------------
+- Role: AmazonSageMaker-ExecutionRole-20250818T210256
+	- AmazonBedrockFullAccess
+	- AmazonSageMakerFullAccess
+	- BedrockAgentCoreFullAccess
+	- sippa-agentcore-api
+	- SIPPA-Agentcore-Gateway
+	- SIPPA-agentcore-strands
+
+	Trust relationships
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "",
+            "Effect": "Allow",
+            "Principal": {
+                "Service": "sagemaker.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+        },
+        {
+            "Sid": "AssumeRolePolicy",
+            "Effect": "Allow",
+            "Principal": {
+                "Service": "bedrock-agentcore.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole",
+            "Condition": {
+                "StringEquals": {
+                    "aws:SourceAccount": "accountId"
+                },
+                "ArnLike": {
+                    "aws:SourceArn": "arn:aws:bedrock-agentcore:region:accountId:*"
+                }
+            }
+        },
+        {
+            "Effect": "Allow",
+            "Principal": {
+                "Service": "codebuild.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole",
+            "Condition": {
+                "StringEquals": {
+                    "aws:SourceAccount": "YOUR_ACCOUNT_ID"
+                }
+            }
+        }
+    ]
+}
+
+****************************************************************
+- Role: SmartGoalGeneratorBedrockAgentCoreRole-us-east-1
+	- sippa-smart_goal_generator-set1
+	- sippa-smart_goal_generator-set2
+
+    Trust relatiobships:
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Principal": {
+                "Service": "sagemaker.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+        },
+        {
+            "Sid": "AssumeRolePolicy",
+            "Effect": "Allow",
+            "Principal": {
+                "Service": "bedrock-agentcore.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole",
+            "Condition": {
+                "StringEquals": {
+                    "aws:SourceAccount": "711246752798"
+                },
+                "ArnLike": {
+                    "aws:SourceArn": "arn:aws:bedrock-agentcore:us-east-1:711246752798:*"
+                }
+            }
+        }
+    ]
+}
+
+

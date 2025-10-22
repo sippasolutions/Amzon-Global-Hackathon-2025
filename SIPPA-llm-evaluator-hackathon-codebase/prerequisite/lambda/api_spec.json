@@ -1,0 +1,41 @@
+[
+    {
+        "name": "fetch_data",
+        "description": "fetch data from sources of different formats and channels, and return the raw and formatted text",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "data_source": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "data_source"
+            ]
+        }
+    },
+    {
+        "name": "web_search",
+        "description": "Search the web for updated information using DuckDuckGo",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "keywords": {
+                    "type": "string",
+                    "description": "The search query keywords"
+                },
+                "region": {
+                    "type": "string",
+                    "description": "The search region (e.g., us-en, uk-en, ru-ru)"
+                },
+                "max_results": {
+                    "type": "integer",
+                    "description": "The maximum number of results to return"
+                }
+            },
+            "required": [
+                "keywords"
+            ]
+        }
+    }
+]
