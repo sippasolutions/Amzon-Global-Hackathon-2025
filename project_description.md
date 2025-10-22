@@ -107,7 +107,7 @@ Each agent runs in an **isolated AgentCore runtime kernel** to perform two coord
 - **IAM Roles & Policies for Replication:** [https://tinyurl.com/2whmjuzf](https://tinyurl.com/2whmjuzf)  
   *(Note: Certain runtime and account-specific configurations may require adjustment.)*  
 - **Demo Showcase (Deployment Walkthrough):**  
-1. High level (3-min video): https://www.youtube.com/watch?v=DsFOrBeO_Ys
+1. High level (3-min video): https://youtu.be/T3XotbsSy1M
 2. Unit testing (step-by-step walkthrough) of Smart-Goal-Generator and LLM-Evaluator agents: https://tinyurl.com/t2uz7ptm (just open the Jupyter Notebook)
 
 
