@@ -1,5 +1,5 @@
 ## Project Description
-Please refer to the proejct_description.md for the details of the project.
+Please refer to the  [project_description.md](./project_description.md) for the details of the project.
 
 ## License
 This project is licensed under the **Business Source License 1.1 (BSL)**.
